@@ -1,11 +1,12 @@
 ## 🛡️ Digital Forensics: Evidence Identification & Preservation
-![Preview Screenshot](./digital-forensics/src/assets/Screenshot 2026-03-06 153541.png)
+![Preview Screenshot](./digital-forensics/src/assets/shot_1.png)
 
-![Preview Screenshot](./digital-forensics/src/assets/Screenshot 2026-03-06 153608.png)
-![alt text](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![alt text](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![alt text](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-![alt text](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![Preview Screenshot](./digital-forensics/src/assets/shot_2.png)
+
+![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind.css](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![OnRender](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 Project Objective: To demonstrate the standardized process of identifying, preserving, and validating the integrity of digital evidence following a system compromise.
 
