@@ -9,14 +9,10 @@
 
 Project Objective: To demonstrate the standardized process of identifying, preserving, and validating the integrity of digital evidence following a system compromise.
 
----
-
-** 🚀 Live Demo **
+## 🚀 Live Demo 
 🔗 View Digital Forensics Live on Render
 
----
-
-** 📖 Overview : **
+## 📖 Overview : 
 Improper handling of digital evidence (logs, memory, files) can lead to data contamination, making it unusable in legal proceedings. This project provides a structured framework and toolset to ensure Chain of Custody and Evidence Integrity.
 
 Key Tasks Performed:
@@ -24,26 +20,20 @@ Identification: Pinpointing volatile and non-volatile artifacts (RAM, Logs, MIME
 Preservation: Implementing bit-for-bit validation logic.
 Integrity: Utilizing cryptographic hashing (SHA-256) to ensure zero data mutation.
 
----
-
-** ✨ Features **
+## ✨ Features 
 - Real-Time Forensic Hashing: Uses the browser's native Web Crypto API to generate SHA-256 fingerprints locally (No data ever leaves your machine).
 - Dynamic Evidence Log: Tracks multiple artifacts with automated timestamps and metadata extraction.
 - Office Document Sanitization: Automatically cleans and formats complex MIME types (e.g., .docx, .xlsx) for clean reporting.
 - Responsive Design: Fully functional across desktop and mobile forensic workstations.
 
----
-
-** 🛠️ Technical Stack **
+## 🛠️ Technical Stack
 - Frontend: React 18 (Vite)
 - Styling: Tailwind CSS (Custom Midnight Theme)
 - Icons: Lucide-React
 - Cryptography: Web Crypto API (SubtleCrypto)
 - Deployment: Render (Static Site Hosting)
 
----
-
-** 📂 Project Structure **
+## 📂 Project Structure
 
 ```text
 Digital-forensics/
@@ -60,9 +50,7 @@ Digital-forensics/
 └── vite.config.js         # Vite build configuration
 ```
 
----
-
-** 📑 Forensic Methodology (Theory) : **
+## 📑 Forensic Methodology (Theory) :
 1. Evidence Identification
 In the event of a breach, we target:
 Volatile Evidence: System memory (RAM) and active network connections.
@@ -74,9 +62,7 @@ Hashing: Generating a cryptographic hash at the moment of collection to serve as
 3. Why Integrity Matters?
 Evidence integrity is the cornerstone of Digital Forensics. If a single bit changes, the hash will fail validation, rendering the evidence inadmissible in a court of law. This tool automates the validation check to prevent human error.
 
----
-
-** ⚙️ Installation & Setup **
+## ⚙️ Installation & Setup 
 To run this project locally:
 Clone the repository:
 ```bash
