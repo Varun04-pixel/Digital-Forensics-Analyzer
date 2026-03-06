@@ -11,7 +11,7 @@
 Project Objective: To demonstrate the standardized process of identifying, preserving, and validating the integrity of digital evidence following a system compromise.
 
 ## 🚀 Live Demo 
-🔗 View Digital Forensics Live on Render
+🔗 [Live Link](https://digital-forensics-analyzer.onrender.com)
 
 ## 📖 Overview : 
 Improper handling of digital evidence (logs, memory, files) can lead to data contamination, making it unusable in legal proceedings. This project provides a structured framework and toolset to ensure Chain of Custody and Evidence Integrity.
