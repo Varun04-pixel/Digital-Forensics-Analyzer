@@ -1,0 +1,20 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfd;
+} */
+
+/* black theme */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #010409;
+  color: #e6edf3;
+  font-family: 'Inter', sans-serif;
+}
