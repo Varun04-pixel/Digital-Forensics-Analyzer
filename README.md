@@ -6,17 +6,17 @@
 ![alt text](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 ![alt text](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-Developed by: Varun Async
+
 Project Objective: To demonstrate the standardized process of identifying, preserving, and validating the integrity of digital evidence following a system compromise.
 
 ---
 
-## 🚀 Live Demo
+** 🚀 Live Demo **
 🔗 View Digital Forensics Live on Render
 
 ---
 
-## 📖 Overview :
+** 📖 Overview : **
 Improper handling of digital evidence (logs, memory, files) can lead to data contamination, making it unusable in legal proceedings. This project provides a structured framework and toolset to ensure Chain of Custody and Evidence Integrity.
 
 Key Tasks Performed:
@@ -26,7 +26,7 @@ Integrity: Utilizing cryptographic hashing (SHA-256) to ensure zero data mutatio
 
 ---
 
-## ✨ Features
+** ✨ Features **
 - Real-Time Forensic Hashing: Uses the browser's native Web Crypto API to generate SHA-256 fingerprints locally (No data ever leaves your machine).
 - Dynamic Evidence Log: Tracks multiple artifacts with automated timestamps and metadata extraction.
 - Office Document Sanitization: Automatically cleans and formats complex MIME types (e.g., .docx, .xlsx) for clean reporting.
@@ -34,7 +34,7 @@ Integrity: Utilizing cryptographic hashing (SHA-256) to ensure zero data mutatio
 
 ---
 
-## 🛠️ Technical Stack
+** 🛠️ Technical Stack **
 - Frontend: React 18 (Vite)
 - Styling: Tailwind CSS (Custom Midnight Theme)
 - Icons: Lucide-React
@@ -43,21 +43,26 @@ Integrity: Utilizing cryptographic hashing (SHA-256) to ensure zero data mutatio
 
 ---
 
-## 📂 Project Structure
+** 📂 Project Structure **
 
+```text
 Digital-forensics/
+├── public/                # Static assets (logos, favicons)
 ├── src/
-│   ├── components/
-│   │   └── App.jsx        # Main Dashboard Logic & Hashing Engine
-│   ├── index.css          # Tailwind Directives & Global Styles
-│   └── main.jsx           # Entry Point
-├── tailwind.config.js     # Custom Midnight Color Palette
-├── package.json           # Project Dependencies
-└── README.md              # Project Documentation
+│   ├── components/        # Reusable UI components
+│   │   └── App.jsx        # Dashboard Logic & Hashing Engine
+│   ├── index.css          # Tailwind & Global Styles
+│   └── main.jsx           # React Entry Point
+├── .gitignore             # Crucial: Keeps node_modules out of GitHub
+├── index.html             # Entry HTML file
+├── package.json           # Project metadata & dependencies
+├── tailwind.config.js     # Custom Midnight Theme configuration
+└── vite.config.js         # Vite build configuration
+```
 
 ---
 
-## 📑 Forensic Methodology (Theory) :
+** 📑 Forensic Methodology (Theory) : **
 1. Evidence Identification
 In the event of a breach, we target:
 Volatile Evidence: System memory (RAM) and active network connections.
@@ -71,7 +76,7 @@ Evidence integrity is the cornerstone of Digital Forensics. If a single bit chan
 
 ---
 
-## ⚙️ Installation & Setup
+** ⚙️ Installation & Setup **
 To run this project locally:
 Clone the repository:
 ```bash
