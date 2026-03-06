@@ -1,5 +1,7 @@
 ## 🛡️ Digital Forensics: Evidence Identification & Preservation
+
 ![Preview Screenshot](./digital-forensics/src/assets/shot_1.png)
+
 
 ![Preview Screenshot](./digital-forensics/src/assets/shot_2.png)
 
@@ -11,7 +13,7 @@
 Project Objective: To demonstrate the standardized process of identifying, preserving, and validating the integrity of digital evidence following a system compromise.
 
 ## 🚀 Live Demo 
-🔗 [Live Link](https://digital-forensics-analyzer.onrender.com)
+🔗 [Digital Forensics Analyzer](https://digital-forensics-analyzer.onrender.com)
 
 ## 📖 Overview : 
 Improper handling of digital evidence (logs, memory, files) can lead to data contamination, making it unusable in legal proceedings. This project provides a structured framework and toolset to ensure Chain of Custody and Evidence Integrity.
