@@ -69,7 +69,7 @@ Evidence integrity is the cornerstone of Digital Forensics. If a single bit chan
 To run this project locally:
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/Digital-forensics.git
+git clone https://github.com/Varun04-pixel/Digital-forensics.git
 ```
 Install dependencies:
 ```bash
